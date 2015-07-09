@@ -14,7 +14,7 @@ quest = document.getElementById("question");
 choice = document.getElementById("choices");
 
 
-quest.innerText = questionsArray[count].question;
+// quest.innerText = questionsArray[count].question;
 choice.innerText = questionsArray[count].possibleAnswers;
 
 
@@ -45,6 +45,10 @@ function update_question_result(correct) {
 //   var user_answer = given_answer();
 //   update_question_result(is_correct_answer(user_answer));
 // }
+
+function load_first_question() {
+  
+}
 
 function next_question() {
   count++

@@ -4,10 +4,24 @@
     <title>Quiz Game V2</title>
   </head>
 
-  <body>
+  <body onload="load_first_question()">
     <h1>Quiz Game V2</h1>
     <div id="quiz">
-      <div id="question"></div>
+      <div id="question 1">
+        <p>How many words are in this sentence?</p>
+      </div>
+      <div id="question 2">
+        <p>What about this sentence?</p>
+      </div>
+      <div id="question 3">
+        <p>And this sentence?</p>
+      </div>
+      <div id="question 4">
+        <p>What's your favorite letter.</p>
+      </div>
+      <div id="question 5">
+        <p>Is there a correct answer to this question?</p>
+      </div>
       <div id="choices"></div>
       <input type="text" id="answer">
       <input type="submit" id="submitter" onclick="given_answer()">

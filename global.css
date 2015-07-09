@@ -1,0 +1,17 @@
+
+
+#box {
+  border: 1px black solid;
+  width:200px;
+  height:200px;
+  background-color:gray;
+  visibility:hidden;
+}
+
+#exit {
+  font-size:200%;
+  color:white;
+  float:right;
+}
+
+#sign_in {}
