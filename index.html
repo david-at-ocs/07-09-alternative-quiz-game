@@ -2,30 +2,31 @@
 <html>
   <head>
     <title>Quiz Game V2</title>
+    <link rel="stylesheet" href="global.css">
   </head>
 
-  <body onload="load_first_question()">
+  <body>
     <h1>Quiz Game V2</h1>
     <div id="quiz">
-      <div id="question 1">
+      <div id="question1" class="smoosh">
         <p>How many words are in this sentence?</p>
       </div>
-      <div id="question 2">
+      <div id="question2" class="smoosh">
         <p>What about this sentence?</p>
       </div>
-      <div id="question 3">
+      <div id="question3" class="unhide smoosh">
         <p>And this sentence?</p>
       </div>
-      <div id="question 4">
+      <div id="question4" class="smoosh">
         <p>What's your favorite letter.</p>
       </div>
-      <div id="question 5">
+      <div id="question5" class="smoosh">
         <p>Is there a correct answer to this question?</p>
       </div>
-      <div id="choices"></div>
-      <input type="text" id="answer">
-      <input type="submit" id="submitter" onclick="given_answer()">
     </div>
+    <div id="choices"></div>
+    <input type="text" id="answer">
+    <input type="submit" id="submitter" onclick="given_answer()">
     <div id="question_result"></div>
     <input type="submit" id="next" value="Next Question" onclick="next_question()">
     <div id="total_result"></div>

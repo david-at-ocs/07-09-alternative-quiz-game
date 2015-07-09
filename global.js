@@ -46,10 +46,6 @@ function update_question_result(correct) {
 //   update_question_result(is_correct_answer(user_answer));
 // }
 
-function load_first_question() {
-  
-}
-
 function next_question() {
   count++
   if (questionsArray[count]) {
