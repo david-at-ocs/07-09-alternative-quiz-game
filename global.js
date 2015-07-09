@@ -13,6 +13,9 @@ var questionsArray = [question1, question2, question3, question4, question5];
 quest = document.getElementById("question");
 choice = document.getElementById("choices");
 
+document.getElementById("submitter").addEventListener("click", given_answer);
+document.getElementById("next").addEventListener("click", next_question);
+
 
 // quest.innerText = questionsArray[count].question;
 choice.innerText = questionsArray[count].possibleAnswers;
@@ -43,7 +46,7 @@ function update_question_result(correct) {
 
 
 function next_question() {
-  ++count
+  count++
   if (questionsArray[count]) {
     clear_fields();
     set_next_question(count);
