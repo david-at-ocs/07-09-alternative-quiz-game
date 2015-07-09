@@ -15,3 +15,11 @@
   position: absolute;
 }
 
+.smoosh p {
+  margin: 0px;
+}
+
+#choices {
+  margin-top: 50px;
+}
+
